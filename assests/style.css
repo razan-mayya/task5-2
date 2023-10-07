@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li a:hover,
+.redhover:hover {
+    color: red !important;
+}
+
+.carousel-inner button:hover {
+    background-color: red;
+}
+
+li {
+    font-weight: bold;
+    list-style-type: none;
+}
+
+li img {
+    width: 20px;
+    height: 20px;
+}
+
+.sl1 {
+
+    background-image: url('./img/sloderimg1.webp');
+}
+
+.sl2 {
+    background-image: url('./img/sliderimg2.webp');
+}
+
+.sl3 {
+    background-image: url('./img/sliderimg3.webp');
+}
+
+.arrow {
+    background-color: rgb(158, 31, 31) !important;
+    color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.point1 {
+    width: 10px;
+    height: 10px;
+    animation: 4s ease 2s infinite;
+    animation-name: example;
+}
+
+@keyframes example {
+    0% {
+        box-shadow: 0px 0px 0px 0px red;
+    }
+
+    25% {
+        box-shadow: 0px 0px 2px 2px red;
+
+    }
+
+    50% {
+        box-shadow: 0px 0px 4px 4px red;
+
+    }
+
+    75% {
+        box-shadow: 0px 0px 7px 7px red;
+
+    }
+
+    100% {
+        box-shadow: 0px 0px 10px 10px red;
+    }
+}
+
+.line1 {
+    width: 1px;
+    height: 100px;
+
+}
+
+.line2 {
+    width: 1px;
+    height: 200px;
+}
+
+.line3 {
+    width: 1px;
+    height: 75px;
+}
+
+.xx {
+    margin-top: 600px;
+}
+
+.card:hover {
+    border: 1px solid red;
+}
+
+.hidden {
+    display: none;
+    height: 40px;
+}
+
+
+
+.accordion {
+    --bs-accordion-bg: none !important;
+    --bs-accordion-btn-icon: none !important;
+    --bs-accordion-btn-active-icon: none !important;
+
+}
+
+
+.accordion-header .accordion-button,
+.accordion-body {
+    color: whitesmoke;
+}
+
+
+
+
+accordion-button::after {
+    content: '+' !important;
+
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    content: '-' !important;
+
+
+}
+
+.footer {
+    background-image: url('./img/footer_ad0f20f1-29b5-4188-8127-a6667ac6aea9.webp');
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.card {
+    width: 400px;
+
+}
+
+.card img {
+    height: 300px;
+}
+
+.prev-btn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    top: 29%;
+}
+
+.next-btn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    right: 2%;
+    top: 27%;
+
+}
